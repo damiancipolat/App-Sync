@@ -10,7 +10,9 @@ Casi todas las aplicaciones móviles necesitan sincronizar datos con un servidor
 ## Tipos de sincronizaciones:
 ![N|Solid](http://damiancipolat.com/webFiles/appsync2.png)
 
-- **Sincronización unidireccional**: 
+[one-way-sync]:https://github.com/damiancipolat/App-Sync-Patterns/blob/master/appsync.pdf
+
+- **Sincronización unidireccional**: Ver ejemplo **[one-way-sync]**
 
 Los datos solo se sincronizan desde el servidor a las aplicaciones (por ejemplo, la aplicación de noticias donde el contenido se sincroniza desde el servidor CMS a las aplicaciones) o los datos se sincronizan desde las aplicaciones a un servidor (por ejemplo, registro / análisis).
 
