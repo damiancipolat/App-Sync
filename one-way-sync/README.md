@@ -6,6 +6,9 @@ Este ejemplo esta desarrollado usando nodejs, hay un server y X clientes que des
 ## Escenario:
 - Servidor:
    
-   Desconoce la cantidad de clientes que hay.
-   Cada 5 segundos genera contenido y lo almacena en un buffer interno para poder ofrecerlo a los clientes.
+   - Desconoce la cantidad de clientes que hay.
+   
+   - Cada 5 segundos genera contenido y lo almacena en un buffer interno para poder ofrecerlo a los clientes.
+   
+   - Ofrece un API-REST para ser consumida por los clientes para obtener las novedades.
  
