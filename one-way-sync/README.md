@@ -4,6 +4,7 @@ Sincronización de un solo lado.
 Este ejemplo esta desarrollado usando nodejs, hay un server y X clientes que descargan contenido del server.
 
 ## Escenario:
+
 - Servidor:
    
    - Desconoce la cantidad de clientes que hay.
@@ -12,3 +13,23 @@ Este ejemplo esta desarrollado usando nodejs, hay un server y X clientes que des
    
    - Ofrece un API-REST para ser consumida por los clientes para obtener las novedades.
  
+- Cliente:
+   
+   - Conoce su estado interno.
+   
+   - Actualiza su contenido en base al server, usa el timestamp para informar us ultima fecha de datos.
+   
+   - Consume el api-rest del server.
+ 
+ ## Ejecución:
+ ```sh 
+#Server:
+$ cd /server
+$ npm install
+$ npm start
+
+#Client
+$ cd /server
+$ npm install
+$ npm start
+```
