@@ -7,8 +7,14 @@ El contenido teorico de este sitio fue sacado de **appsync.org**, obtenido del s
 
 Casi todas las aplicaciones móviles necesitan sincronizar datos con un servidor o back-end (por ejemplo, "la nube" para hacerlo más elegante), sin embargo es difícil para encontrar patrones, algoritmos, estrategias o código de ejemplo para ayudar a los desarrolladores a implementar una estrategia óptima de sincronización de datos para aplicaciones que desarrollan.
 
-### Tipos de sincronizaciones:
+## Tipos de sincronizaciones:
 ![N|Solid](http://damiancipolat.com/webFiles/appsync2.png)
+
+- **Sincronización unidireccional**: los datos solo se sincronizan desde el servidor a las aplicaciones (por ejemplo, la aplicación de noticias donde el contenido se sincroniza desde el servidor CMS a las aplicaciones) o los datos se sincronizan desde las aplicaciones a un servidor (por ejemplo, registro / análisis).
+
+- **Sincronización bidireccional**: los datos se sincronizan en dos direcciones, desde una aplicación hasta un backend y viceversa. P.ej. un usuario está conectado y puede administrar sus propios datos en un sitio web y en una aplicación (suponiendo que el usuario no pueda iniciar sesión en 2 dispositivos al mismo tiempo).
+
+- **Sincronización multidireccional**: los datos se sincronizan desde múltiples dispositivos a un servidor / backend y viceversa. Esto también significa que los datos de un dispositivo se sincronizan con el servidor y desde el servidor a otros dispositivos (por ejemplo, aplicaciones de colaboración ...).
 
 ## Definiciones generales:
 
