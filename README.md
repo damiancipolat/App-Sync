@@ -8,10 +8,20 @@ Casi todas las aplicaciones móviles necesitan sincronizar datos con un servidor
 ### Definiciones generales:
 
 - **Dispositivo o cliente**:
+
 Dispositivo móvil (teléfono inteligente o tableta) que ejecuta una aplicación que sincronizará los datos con un servidor / backend / cloud.
-- **Servidor (o backend, nube)**: infraestructura centralizada que sincronizará datos con múltiples dispositivos.
-- **Sincronización**: envío de datos desde dispositivos a un servidor y viceversa, sin perder datos y sin transferencia de datos innecesarios. La sincronización es especialmente necesaria en aplicaciones móviles que tienen una base de datos local y que sincronizarán datos con un servidor cuando no estén desconectado.
-- **Sincronización completa**: sincronización de todos los datos (o todos los objetos del mismo tipo).
+- **Servidor (o backend, nube)**:
+
+Infraestructura centralizada que sincronizará datos con múltiples dispositivos.
+
+- **Sincronización**: 
+
+Envío de datos desde dispositivos a un servidor y viceversa, sin perder datos y sin transferencia de datos innecesarios. La sincronización es especialmente necesaria en aplicaciones móviles que tienen una base de datos local y que sincronizarán datos con un servidor cuando no estén desconectado.
+
+- **Sincronización completa**: 
+
+sincronización de todos los datos (o todos los objetos del mismo tipo).
+
 - **Sincronización incremental**: sincronización de solo los datos que han cambiado desde la última sincronización.
 - **Objeto**: un único elemento de datos que se sincroniza entre dispositivos y un servidor, p. un registro de base de datos, un elemento de agenda o un objeto complejo incluyendo un cliente y todos sus pedidos y facturas (por ejemplo, en una aplicación ERP).
 - **Filtrado**: normalmente no todos los datos se sincronizan entre un servidor y un dispositivo (por ejemplo, datos sincronizados entre el servidor y un determinado el dispositivo puede estar limitado según la cuenta de usuario que haya iniciado sesión).
