@@ -7,6 +7,9 @@ El contenido teorico de este sitio fue sacado de **appsync.org**, obtenido del s
 
 Casi todas las aplicaciones móviles necesitan sincronizar datos con un servidor o back-end (por ejemplo, "la nube" para hacerlo más elegante), sin embargo es difícil para encontrar patrones, algoritmos, estrategias o código de ejemplo para ayudar a los desarrolladores a implementar una estrategia óptima de sincronización de datos para aplicaciones que desarrollan.
 
+### Tipos de sincronizaciones:
+![N|Solid](http://damiancipolat.com/webFiles/appsync2.png)
+
 ## Definiciones generales:
 
 - **Dispositivo o cliente**:
