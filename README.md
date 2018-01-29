@@ -10,7 +10,7 @@ Casi todas las aplicaciones móviles necesitan sincronizar datos con un servidor
 ## Tipos de sincronizaciones:
 ![N|Solid](http://damiancipolat.com/webFiles/appsync2.png)
 
-[one-way-sync]:https://github.com/damiancipolat/App-Sync-Patterns/blob/master/appsync.pdf
+[one-way-sync]:https://github.com/damiancipolat/App-Sync-Patterns/tree/master/one-way-sync
 
 - **Sincronización unidireccional**: Ver ejemplo **[one-way-sync]**
 
