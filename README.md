@@ -1,7 +1,7 @@
 # App-Sync-Patterns
-El contenido teorico de este sitio fue sacado de **appsync.org**, obtenido del sig. **[enlace]**, los códigos fuentes son desarrollados por mí, usando la tecnologia **NODE.JS**.
+El contenido teorico de este sitio fue sacado de **appsync.org**, obtenido del sig. **[enlace]**, los códigos fuentes son desarrollados por mí, usando la tecnologia **NODE.JS**. (El sitio de appsync.org ya no esta offline almaceno el pdf en mi repositorio)
 
-[enlace]:https://www.slideshare.net/nikonelissen/appsyncorg-opensource-patterns-and-code-for-data-synchronization-in-mobile-apps
+[enlace]:https://github.com/damiancipolat/App-Sync-Patterns/blob/master/appsync.pdf
 
 ![N|Solid](http://damiancipolat.com/webFiles/appsync.png)
 
