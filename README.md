@@ -23,6 +23,7 @@ Los datos se sincronizan en dos direcciones, desde una aplicación hasta un back
 Los datos se sincronizan desde múltiples dispositivos a un servidor / backend y viceversa. Esto también significa que los datos de un dispositivo se sincronizan con el servidor y desde el servidor a otros dispositivos (por ejemplo, aplicaciones de colaboración ...).
 
 ## Definiciones generales:
+Lista de terminos relacionados a sincronización.
 
 | Definición | Detalle |
 |---|---|
@@ -37,5 +38,5 @@ Los datos se sincronizan desde múltiples dispositivos a un servidor / backend y
 | Conflicto PK | Un conflicto de clave principal se produce cuando se crea un objeto con la misma PK en el servidor y en un dispositivo o en 2 diferentes dispositivos (por ejemplo, una reserva se crea en 2 dispositivos diferentes para la misma fecha, mientras que solo se permite una reserva por día). |
 | GUID | Una identificación única, que se genera automáticamente (usando dígitos aleatorios) para cada nuevo objeto. Los Guid están garantizados para ser únicos, incluso a través de dispositivos y servidores. |
 | Contador | Un concepto introducido en appSync, para realizar un seguimiento de los cambios de datos en el servidor y en cada dispositivo. El contador se incrementa en cada cambio de objeto (nuevo objeto, objeto de actualización, eliminar objeto). |
-| Eliminación suave: | Cuando se elimina un objeto, su propiedad "isdeleted" se establece en 1, pero el objeto no se elimina físicamente en la base de datos. Esto se considera más seguro porque permite depurar y recuperar objetos cuando es necesario. |
-| Marca de tiempo: | Para cada objeto, la marca de tiempo (fecha y hora) se almacena desde la creación del objeto (timestrampcreated) y el último cambio de objeto (timestamplastupdate). Las marcas de tiempo no se utilizan para decidir qué datos sincronizar porque las marcas de tiempo pueden ser inexactas (por ejemplo, cuando el dispositivo el reloj no es idéntico al reloj del servidor), pero las marcas de tiempo se pueden usar para determinar qué versión de objeto se debe conservar cuando se produce un conflicto. |
+| Eliminación suave | Cuando se elimina un objeto, su propiedad "isdeleted" se establece en 1, pero el objeto no se elimina físicamente en la base de datos. Esto se considera más seguro porque permite depurar y recuperar objetos cuando es necesario. |
+| Marca de tiempo | Para cada objeto, la marca de tiempo (fecha y hora) se almacena desde la creación del objeto (timestrampcreated) y el último cambio de objeto (timestamplastupdate). Las marcas de tiempo no se utilizan para decidir qué datos sincronizar porque las marcas de tiempo pueden ser inexactas (por ejemplo, cuando el dispositivo el reloj no es idéntico al reloj del servidor), pero las marcas de tiempo se pueden usar para determinar qué versión de objeto se debe conservar cuando se produce un conflicto. |
