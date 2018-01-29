@@ -4,6 +4,7 @@ Sincronización de un solo lado.
 Este ejemplo esta desarrollado usando nodejs, hay un server y X clientes que descargan contenido del server.
 
 ## Escenario:
+Se usan para detectar las novedades el timestamp DDMMYYhhmmss de el cliente y el server, en este ejemplo suponemos que ambos estan en la misma zona horaria, para ejemplos productivos armar un GUID.
 
 - Servidor:
    
