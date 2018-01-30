@@ -2,3 +2,13 @@
 Ejemplo de sincronización en dos vias, basado en un ejemplo de sistema de estaciones automaticas de bicicletas.
 
 ![N|Solid](http://damiancipolat.com/webFiles/bike-sync2.png)
+
+## Escenario:
+Este esquema se compone de un servidor de aplicaciones que sera el encargad de gestionar las sincronizaciones de datos, una base de datos para persistir la info. y la red de estaciones de bicicletas, en cada una se deduce que hay una minicomputadora que ejecuta un proceso que informa a la central el estado de cada estación y las bicis disponibles.
+
+- Servidor:
+  - Desconoces la cantidad de estaciones que hay.
+
+  - Ofrece un api rest para recibir datos desde las estaciones y para consulta de novededades de cada estación.
+
+  - Cada reserva estara representada por GUID unico.
