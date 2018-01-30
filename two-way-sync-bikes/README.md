@@ -32,7 +32,8 @@ Usaremos la **Sincronización incremental** para en cada movimiento ir informand
 
 Estación NN a Server:
 - Cada x tiempo reviso la conexión al server, en base a eso bloqueo o desbloqueo el uso de la estación para los usuarios.
-- En el momento de que un usuario se acerca a la estación y con apoya su tarjeta para desbloquear una bici, se le asigna un al azar y se envia esta nueva información a la central.
+- En el momento de que un usuario se acerca a la estación y con apoya su tarjeta para desbloquear una bici, se le asigna un al azar y se guarda en el buffer de la estación para ser enviada dicha información a la central.
+- Cada vez que dejan una bici dentro de la estación se guardar en el buffer para luego enviar las novedades a la central.
 - Cada x tiempo resivo si hay novedades para esta estación puede ser bloquearla por mantenimiento o desbloquear una bici puntual.
 
 ## Desarrollo:
