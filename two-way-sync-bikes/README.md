@@ -28,3 +28,9 @@ Usaremos la **Sincronización incremental** para en cada movimiento ir informand
   
   - Informa al server cada vez que se retira una bici, revisa cada x segundos la conexión a la red, descarga cada x segundos si hay alguna bici que se debe desbloquear.
  
+## Sincronización:
+
+Estación NN a Server:
+- Cada x tiempo reviso la conexión al server, en base a eso bloqueo o desbloqueo el uso de la estación para los usuarios.
+- En el momento de que un usuario se acerca a la estación y con apoya su tarjeta para desbloquear una bici, se le asigna un al azar y se envia esta nueva información a la central.
+- Cada x tiempo resivo si hay novedades para esta estación puede ser bloquearla por mantenimiento o desbloquear una bici puntual.
