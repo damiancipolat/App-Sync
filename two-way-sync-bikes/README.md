@@ -6,6 +6,8 @@ Ejemplo de sincronización en dos vias, basado en un ejemplo de sistema de estac
 ## Escenario:
 Este esquema se compone de un servidor de aplicaciones que sera el encargad de gestionar las sincronizaciones de datos, una base de datos para persistir la info. y la red de estaciones de bicicletas, en cada una se deduce que hay una minicomputadora que ejecuta un proceso que informa a la central el estado de cada estación y las bicis disponibles.
 
+Usaremos la Sincronización incremental para en cada movimiento ir informando al server el estado de cada estación y viceversa.	
+
 - **Servidor**:
   - Desconoce la cantidad de estaciones que hay.
 
