@@ -34,3 +34,6 @@ Estación NN a Server:
 - Cada x tiempo reviso la conexión al server, en base a eso bloqueo o desbloqueo el uso de la estación para los usuarios.
 - En el momento de que un usuario se acerca a la estación y con apoya su tarjeta para desbloquear una bici, se le asigna un al azar y se envia esta nueva información a la central.
 - Cada x tiempo resivo si hay novedades para esta estación puede ser bloquearla por mantenimiento o desbloquear una bici puntual.
+
+## Desarrollo:
+Como es solo un ejemplo se desarrollara una aplicacion node.js tanto para el server como para las estaciones, estas simularan envio de datos cada cierto tiempo para reflejar el comportamiento del sistema.
