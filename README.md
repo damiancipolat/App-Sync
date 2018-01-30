@@ -11,12 +11,13 @@ Casi todas las aplicaciones móviles necesitan sincronizar datos con un servidor
 ![N|Solid](http://damiancipolat.com/webFiles/appsync2.png)
 
 [one-way-sync]:https://github.com/damiancipolat/App-Sync-Patterns/tree/master/one-way-sync
+[two-ways-sync]:https://github.com/damiancipolat/App-Sync-Patterns/tree/master/two-way-sync-bikes
 
 - **Sincronización unidireccional**: Ver ejemplo **[one-way-sync]**
 
 Los datos solo se sincronizan desde el servidor a las aplicaciones (por ejemplo, la aplicación de noticias donde el contenido se sincroniza desde el servidor CMS a las aplicaciones) o los datos se sincronizan desde las aplicaciones a un servidor (por ejemplo, registro / análisis).
 
-- **Sincronización bidireccional**: 
+- **Sincronización bidireccional**: Ver ejemplo **[two-ways-sync]** 
 
 Los datos se sincronizan en dos direcciones, desde una aplicación hasta un backend y viceversa. P.ej. un usuario está conectado y puede administrar sus propios datos en un sitio web y en una aplicación (suponiendo que el usuario no pueda iniciar sesión en 2 dispositivos al mismo tiempo).
 
