@@ -36,4 +36,4 @@ Estación NN a Server:
 - Cada x tiempo resivo si hay novedades para esta estación puede ser bloquearla por mantenimiento o desbloquear una bici puntual.
 
 ## Desarrollo:
-Como es solo un ejemplo se desarrollara una aplicacion node.js tanto para el server como para las estaciones, estas simularan envio de datos cada cierto tiempo para reflejar el comportamiento del sistema.
+Como es solo un ejemplo se desarrollara una aplicacion node.js tanto para el server como para las estaciones, estas simularan envio de datos cada cierto tiempo para reflejar el comportamiento del sistema, al iniciar la ejecución cada estación tendra la totalidad de bicis disponibles completas y con el tiempo se iran simulando retiros.
